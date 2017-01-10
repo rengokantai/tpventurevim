@@ -24,6 +24,38 @@ shift v //visual line mode
 
 
 
+###3 Macros and Registers
+####01:00
+ctrl g //see status of file
+
+####02:00
+delete line and below
+```
+dj
+```
+
+create a macro called a
+```
+qa
+```
+####05:43
+end recording macro
+```
+q
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ###4 Advanced Movement
@@ -41,7 +73,38 @@ go to top of window
 ```
 H
 ```
+go to buttom of window
+```
+L
+```
+3 lines above bottom of the window
+```
+3L
+```
 
+set currentline(cursor) stay on the top
+```
+zt
+```
+conversely
+```
+zb
+```
+middle
+```
+zz
+```
+
+
+####05:00
+set register(marker)
+```
+ma   //set marker name a
+```
+
+```
+'a   //go to marker name a
+```
 
 
 
