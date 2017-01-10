@@ -21,6 +21,36 @@ enter
 ####05:29
 v //visual mode
 shift v //visual line mode
+
+
+
+
+
+###4 Advanced Movement
+```
+ctrl d //move half screen down
+ctrl u //move half screen up
+ctrl f //move full screen down(forward)
+ctrl b //move full screen up(backward)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ###5 Using the Command Line Directly From Vim
 ```
 read(r) !curl http://
