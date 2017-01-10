@@ -33,7 +33,14 @@ ctrl u //move half screen up
 ctrl f //move full screen down(forward)
 ctrl b //move full screen up(backward)
 ```
-
+go to middle of screen
+```
+M
+```
+go to top of window
+```
+H
+```
 
 
 
