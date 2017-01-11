@@ -43,7 +43,20 @@ end recording macro
 ```
 q
 ```
+check all registers
+```
+:registers
+:reg
+```
 
+execute macro
+```
+@a
+```
+@ means last macro used, here
+```
+200@@ = 200@a
+```
 
 
 
@@ -137,6 +150,29 @@ set ft=javascript
 :b#  //last buffer we were visiting
 :bnext //next
 ```
+
+##3. Vim as an Extension of Vi
+###1 Windows and Tabs
+```
+vsplit filename
+```
+
+```
+ctrl w +  //add height of window ( vertical)
+ctrl w -  //reduce height of window ( vertical)
+ctrl w >  //add width of window (horizontal)
+ctrl w <  //reduce width of window (horizontal)
+```
+
+equal size all windows
+```
+ctrl w =
+```
+
+
+
+
+
 ##4. Customization
 ###3 Themes
 ####01:29
