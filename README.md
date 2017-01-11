@@ -170,6 +170,10 @@ ctrl w =
 ```
 
 
+```
+:sb2   //open buffer number x
+```
+
 
 
 
